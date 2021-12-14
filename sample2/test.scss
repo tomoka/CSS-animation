@@ -1,0 +1,140 @@
+//変数の定義
+$accuracy: 10; // 計算精度
+@function pow($bs, $exp) {
+    $val: $bs;
+    @if $exp > 1 {
+        @for $i from 2 through $exp {
+            $val: $val * $bs;
+        }
+    } @else if $exp < 1 {
+        @for $i from 0 through -$exp {
+            $val: $val / $bs;
+        }
+    }
+    @return $val;
+}
+
+@function pi() {
+    @return 3.14159265359;
+}
+@function rad($angle) {
+    $unit: unit($angle);
+    $val: $angle / (1 + 0 * $angle);
+    @if $unit == "deg" {
+        $val: $val / 180 * pi();
+    }
+    @return $val;
+}
+@function fact($num) {
+    $val: 1;
+    @if $num > 0 {
+        @for $i from 1 through $num {
+        $val: $val * $i;
+        }
+    }
+    @return $val;
+}
+@function cos($ang) {
+    $a: rad($ang);
+    $cos: 1;
+    @for $n from 1 through $accuracy {
+        $cos: $cos + pow(-1, $n) / fact(2 * $n) * pow($a, 2 * $n);
+    }
+    @return $cos;
+}
+@function sin($ang) {
+    $theta: rad($ang);
+    $sin: $theta;
+    @for $n from 1 through $accuracy {
+      $sin: $sin + pow(-1, $n) / fact(2 * $n + 1) * pow($theta, 2 * $n + 1);
+    }
+    @return $sin;
+}
+
+$r: 300; //円の半径
+$point: 30; //いくつ点を用意するか
+//$point2: 50; //いくつ点を用意するか
+$singleAngle:  (360/$point)*(pi()/180) ;
+//$singleAngle:  (12 * pi())/180 ;
+$keyFrameLength: 60;
+
+@mixin translate($x,$y) {
+  -webkit-transform:translate($x, $y);
+  -ms-transform:translate($x, $y);
+  -moz-transform:translate($x, $y);
+  -o-transform:translate($x, $y);
+  transform:translate($x, $y);
+}
+@mixin animation-delay($d) {
+  -webkit-animation-delay : $d ;
+  -ms-animation-delay     : $d ;
+  -moz-animation-delay    : $d ;
+  -o-animation-delay      : $d ;
+  animation-delay         : $d ;
+}
+
+ul {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: none;
+  top: 300px;
+  left: 300px;
+  //border: solid 1px #cccccc;
+}
+
+@for $t from 0 through $point {    
+  li:nth-child(#{$t}) { 
+      top: $r * cos($singleAngle * $t) + px;
+      left: $r * sin($singleAngle * $t) + px;
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      list-style: none;
+      background-color: blue;
+      opacity: 0.5;
+      animation: 
+        colorAnimation 8s linear infinite,
+        rotateAnimation2 20s linear infinite;
+      $durationDelay: ( 20 / $point ) * $t + s;
+      @include animation-delay($durationDelay);
+    }
+  }
+
+@keyframes colorAnimation {
+  @for $i from 0 through $point {
+    #{(100 / $keyFrameLength) * $i + "%"} {
+      $h: (360 / $keyFrameLength) * $i;
+      $color: hsl($h + 30, 10, 10);
+      background-color: $color;
+    }
+  }
+}
+
+@keyframes rotateAnimation {
+ @for $k from 0 through $point {
+   //$angle : $singleAngle * 10 * $k;
+   $angle : 12 * (pi()/180) * 10 * $k;
+       $rc : 100;
+       $rm : 9;
+       $rd : 1.5;
+        #{(100 / $point) * $k + "%"} {
+          $x:  ( $rc - $rm ) * cos( $angle ) + $rd * cos(( $rc - $rm ) / $rm * $angle ) + px;
+          $y:  ( $rc - $rm ) * sin( $angle ) - $rd * sin(( $rc - $rm ) / $rm * $angle ) + px;
+          @include translate($x, $y);
+          }
+      }
+   }
+
+@keyframes rotateAnimation2 {
+  @for $k from 0 through $point {
+   $angle : $singleAngle * 3 * $k;
+    #{(100 / $point) * $k + "%"} {
+      $x: $r * cos( $angle ) + px;
+      $y: $r * sin( $angle ) + px;
+      @include translate($x, $y);
+    }
+  }
+}
+
