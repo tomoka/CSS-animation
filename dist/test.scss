@@ -1,55 +1,5 @@
 //変数の定義
-$accuracy: 10; // 計算精度
-@function pow($bs, $exp) {
-    $val: $bs;
-    @if $exp > 1 {
-        @for $i from 2 through $exp {
-            $val: $val * $bs;
-        }
-    } @else if $exp < 1 {
-        @for $i from 0 through -$exp {
-            $val: $val / $bs;
-        }
-    }
-    @return $val;
-}
-
-@function pi() {
-    @return 3.14159265359;
-}
-@function rad($angle) {
-    $unit: unit($angle);
-    $val: $angle / (1 + 0 * $angle);
-    @if $unit == "deg" {
-        $val: $val / 180 * pi();
-    }
-    @return $val;
-}
-@function fact($num) {
-    $val: 1;
-    @if $num > 0 {
-        @for $i from 1 through $num {
-        $val: $val * $i;
-        }
-    }
-    @return $val;
-}
-@function cos($ang) {
-    $a: rad($ang);
-    $cos: 1;
-    @for $n from 1 through $accuracy {
-        $cos: $cos + pow(-1, $n) / fact(2 * $n) * pow($a, 2 * $n);
-    }
-    @return $cos;
-}
-@function sin($ang) {
-    $theta: rad($ang);
-    $sin: $theta;
-    @for $n from 1 through $accuracy {
-      $sin: $sin + pow(-1, $n) / fact(2 * $n + 1) * pow($theta, 2 * $n + 1);
-    }
-    @return $sin;
-}
+@import "lib/taylor";
 
 $r: 300; //円の半径
 $point: 30; //いくつ点を用意するか
