@@ -1,11 +1,11 @@
 //変数の定義
-@import "lib/taylor";
+@import "../../lib/taylor";
 
 $r: 300; //円の半径
 $point: 30; //いくつ点を用意するか
 //$point2: 50; //いくつ点を用意するか
-$singleAngle:  (360/$point)*(pi()/180) ;
-//$singleAngle:  (12 * pi())/180 ;
+//$singleAngle:  (360/$point)*(pi()/180) ;
+$singleAngle:  (12 * pi())/180 ;
 $keyFrameLength: 60;
 
 @mixin translate($x,$y) {
@@ -38,17 +38,19 @@ ul {
       top: $r * cos($singleAngle * $t) + px;
       left: $r * sin($singleAngle * $t) + px;
       position: absolute;
-      width: 150px;
-      height: 150px;
+      width: 30px;
+      height: 30px;
       border-radius: 50%;
       list-style: none;
       background-color: blue;
       opacity: 0.5;
+      //border: solid 1px #cccccc;
       animation: 
         colorAnimation 8s linear infinite,
-        rotateAnimation2 20s linear infinite;
+        rotateAnimation2 20s linear infinite
+        ;
       $durationDelay: ( 20 / $point ) * $t + s;
-      @include animation-delay($durationDelay);
+      //@include animation-delay($durationDelay);
     }
   }
 
@@ -56,7 +58,7 @@ ul {
   @for $i from 0 through $point {
     #{(100 / $keyFrameLength) * $i + "%"} {
       $h: (360 / $keyFrameLength) * $i;
-      $color: hsl($h + 30, 10, 10);
+      $color: hsl($h, 100, 68);
       background-color: $color;
     }
   }
@@ -64,8 +66,8 @@ ul {
 
 @keyframes rotateAnimation {
  @for $k from 0 through $point {
-   //$angle : $singleAngle * 10 * $k;
-   $angle : 12 * (pi()/180) * 10 * $k;
+   $angle : $singleAngle * 10 * $k;
+   //$angle : 12 * (pi()/180) * 10 * $k;
        $rc : 100;
        $rm : 9;
        $rd : 1.5;
@@ -79,7 +81,7 @@ ul {
 
 @keyframes rotateAnimation2 {
   @for $k from 0 through $point {
-   $angle : $singleAngle * 3 * $k;
+   $angle : $singleAngle * 1 * $k;
     #{(100 / $point) * $k + "%"} {
       $x: $r * cos( $angle ) + px;
       $y: $r * sin( $angle ) + px;
