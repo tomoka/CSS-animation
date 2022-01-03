@@ -4,8 +4,7 @@ ul {
   height: 300px;
   background-color: none;
   top: 600px;
-  left: 600px;
-  border: solid 1px #cccccc; }
+  left: 600px; }
 
 li:nth-child(0) {
   top: 300px;
@@ -15,9 +14,9 @@ li:nth-child(0) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
   -webkit-animation-delay: 0s;
   -ms-animation-delay: 0s;
   -moz-animation-delay: 0s;
@@ -32,14 +31,14 @@ li:nth-child(1) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 0.6666666667s;
-  -ms-animation-delay: 0.6666666667s;
-  -moz-animation-delay: 0.6666666667s;
-  -o-animation-delay: 0.6666666667s;
-  animation-delay: 0.6666666667s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 0.1666666667s;
+  -ms-animation-delay: 0.1666666667s;
+  -moz-animation-delay: 0.1666666667s;
+  -o-animation-delay: 0.1666666667s;
+  animation-delay: 0.1666666667s; }
 
 li:nth-child(2) {
   top: 274.0636372928px;
@@ -49,14 +48,14 @@ li:nth-child(2) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 1.3333333333s;
-  -ms-animation-delay: 1.3333333333s;
-  -moz-animation-delay: 1.3333333333s;
-  -o-animation-delay: 1.3333333333s;
-  animation-delay: 1.3333333333s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 0.3333333333s;
+  -ms-animation-delay: 0.3333333333s;
+  -moz-animation-delay: 0.3333333333s;
+  -o-animation-delay: 0.3333333333s;
+  animation-delay: 0.3333333333s; }
 
 li:nth-child(3) {
   top: 242.7050983125px;
@@ -66,14 +65,14 @@ li:nth-child(3) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 2s;
-  -ms-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  -o-animation-delay: 2s;
-  animation-delay: 2s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 0.5s;
+  -ms-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
 
 li:nth-child(4) {
   top: 200.7391819076px;
@@ -83,14 +82,14 @@ li:nth-child(4) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 2.6666666667s;
-  -ms-animation-delay: 2.6666666667s;
-  -moz-animation-delay: 2.6666666667s;
-  -o-animation-delay: 2.6666666667s;
-  animation-delay: 2.6666666667s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 0.6666666667s;
+  -ms-animation-delay: 0.6666666667s;
+  -moz-animation-delay: 0.6666666667s;
+  -o-animation-delay: 0.6666666667s;
+  animation-delay: 0.6666666667s; }
 
 li:nth-child(5) {
   top: 150px;
@@ -100,14 +99,14 @@ li:nth-child(5) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 3.3333333333s;
-  -ms-animation-delay: 3.3333333333s;
-  -moz-animation-delay: 3.3333333333s;
-  -o-animation-delay: 3.3333333333s;
-  animation-delay: 3.3333333333s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 0.8333333333s;
+  -ms-animation-delay: 0.8333333333s;
+  -moz-animation-delay: 0.8333333333s;
+  -o-animation-delay: 0.8333333333s;
+  animation-delay: 0.8333333333s; }
 
 li:nth-child(6) {
   top: 92.7050983125px;
@@ -117,14 +116,14 @@ li:nth-child(6) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 4s;
-  -ms-animation-delay: 4s;
-  -moz-animation-delay: 4s;
-  -o-animation-delay: 4s;
-  animation-delay: 4s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s; }
 
 li:nth-child(7) {
   top: 31.3585389803px;
@@ -134,14 +133,14 @@ li:nth-child(7) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 4.6666666667s;
-  -ms-animation-delay: 4.6666666667s;
-  -moz-animation-delay: 4.6666666667s;
-  -o-animation-delay: 4.6666666667s;
-  animation-delay: 4.6666666667s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 1.1666666667s;
+  -ms-animation-delay: 1.1666666667s;
+  -moz-animation-delay: 1.1666666667s;
+  -o-animation-delay: 1.1666666667s;
+  animation-delay: 1.1666666667s; }
 
 li:nth-child(8) {
   top: -31.3585389803px;
@@ -151,14 +150,14 @@ li:nth-child(8) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 5.3333333333s;
-  -ms-animation-delay: 5.3333333333s;
-  -moz-animation-delay: 5.3333333333s;
-  -o-animation-delay: 5.3333333333s;
-  animation-delay: 5.3333333333s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 1.3333333333s;
+  -ms-animation-delay: 1.3333333333s;
+  -moz-animation-delay: 1.3333333333s;
+  -o-animation-delay: 1.3333333333s;
+  animation-delay: 1.3333333333s; }
 
 li:nth-child(9) {
   top: -92.7050983125px;
@@ -168,14 +167,14 @@ li:nth-child(9) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 6s;
-  -ms-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  -o-animation-delay: 6s;
-  animation-delay: 6s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 1.5s;
+  -ms-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  animation-delay: 1.5s; }
 
 li:nth-child(10) {
   top: -150px;
@@ -185,14 +184,14 @@ li:nth-child(10) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 6.6666666667s;
-  -ms-animation-delay: 6.6666666667s;
-  -moz-animation-delay: 6.6666666667s;
-  -o-animation-delay: 6.6666666667s;
-  animation-delay: 6.6666666667s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 1.6666666667s;
+  -ms-animation-delay: 1.6666666667s;
+  -moz-animation-delay: 1.6666666667s;
+  -o-animation-delay: 1.6666666667s;
+  animation-delay: 1.6666666667s; }
 
 li:nth-child(11) {
   top: -200.7391819077px;
@@ -202,14 +201,14 @@ li:nth-child(11) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 7.3333333333s;
-  -ms-animation-delay: 7.3333333333s;
-  -moz-animation-delay: 7.3333333333s;
-  -o-animation-delay: 7.3333333333s;
-  animation-delay: 7.3333333333s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 1.8333333333s;
+  -ms-animation-delay: 1.8333333333s;
+  -moz-animation-delay: 1.8333333333s;
+  -o-animation-delay: 1.8333333333s;
+  animation-delay: 1.8333333333s; }
 
 li:nth-child(12) {
   top: -242.7050983123px;
@@ -219,14 +218,14 @@ li:nth-child(12) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 8s;
-  -ms-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  -o-animation-delay: 8s;
-  animation-delay: 8s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s; }
 
 li:nth-child(13) {
   top: -274.0636372918px;
@@ -236,14 +235,14 @@ li:nth-child(13) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 8.6666666667s;
-  -ms-animation-delay: 8.6666666667s;
-  -moz-animation-delay: 8.6666666667s;
-  -o-animation-delay: 8.6666666667s;
-  animation-delay: 8.6666666667s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 2.1666666667s;
+  -ms-animation-delay: 2.1666666667s;
+  -moz-animation-delay: 2.1666666667s;
+  -o-animation-delay: 2.1666666667s;
+  animation-delay: 2.1666666667s; }
 
 li:nth-child(14) {
   top: -293.4442802152px;
@@ -253,14 +252,14 @@ li:nth-child(14) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 9.3333333333s;
-  -ms-animation-delay: 9.3333333333s;
-  -moz-animation-delay: 9.3333333333s;
-  -o-animation-delay: 9.3333333333s;
-  animation-delay: 9.3333333333s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 2.3333333333s;
+  -ms-animation-delay: 2.3333333333s;
+  -moz-animation-delay: 2.3333333333s;
+  -o-animation-delay: 2.3333333333s;
+  animation-delay: 2.3333333333s; }
 
 li:nth-child(15) {
   top: -299.9999999773px;
@@ -270,14 +269,14 @@ li:nth-child(15) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 10s;
-  -ms-animation-delay: 10s;
-  -moz-animation-delay: 10s;
-  -o-animation-delay: 10s;
-  animation-delay: 10s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 2.5s;
+  -ms-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  -o-animation-delay: 2.5s;
+  animation-delay: 2.5s; }
 
 li:nth-child(16) {
   top: -293.4442801265px;
@@ -287,14 +286,14 @@ li:nth-child(16) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 10.6666666667s;
-  -ms-animation-delay: 10.6666666667s;
-  -moz-animation-delay: 10.6666666667s;
-  -o-animation-delay: 10.6666666667s;
-  animation-delay: 10.6666666667s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 2.6666666667s;
+  -ms-animation-delay: 2.6666666667s;
+  -moz-animation-delay: 2.6666666667s;
+  -o-animation-delay: 2.6666666667s;
+  animation-delay: 2.6666666667s; }
 
 li:nth-child(17) {
   top: -274.0636369382px;
@@ -304,14 +303,14 @@ li:nth-child(17) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 11.3333333333s;
-  -ms-animation-delay: 11.3333333333s;
-  -moz-animation-delay: 11.3333333333s;
-  -o-animation-delay: 11.3333333333s;
-  animation-delay: 11.3333333333s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 2.8333333333s;
+  -ms-animation-delay: 2.8333333333s;
+  -moz-animation-delay: 2.8333333333s;
+  -o-animation-delay: 2.8333333333s;
+  animation-delay: 2.8333333333s; }
 
 li:nth-child(18) {
   top: -242.7050970692px;
@@ -321,14 +320,14 @@ li:nth-child(18) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 12s;
-  -ms-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  -o-animation-delay: 12s;
-  animation-delay: 12s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  animation-delay: 3s; }
 
 li:nth-child(19) {
   top: -200.7391778348px;
@@ -338,14 +337,14 @@ li:nth-child(19) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 12.6666666667s;
-  -ms-animation-delay: 12.6666666667s;
-  -moz-animation-delay: 12.6666666667s;
-  -o-animation-delay: 12.6666666667s;
-  animation-delay: 12.6666666667s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 3.1666666667s;
+  -ms-animation-delay: 3.1666666667s;
+  -moz-animation-delay: 3.1666666667s;
+  -o-animation-delay: 3.1666666667s;
+  animation-delay: 3.1666666667s; }
 
 li:nth-child(20) {
   top: -149.9999874497px;
@@ -355,14 +354,14 @@ li:nth-child(20) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 13.3333333333s;
-  -ms-animation-delay: 13.3333333333s;
-  -moz-animation-delay: 13.3333333333s;
-  -o-animation-delay: 13.3333333333s;
-  animation-delay: 13.3333333333s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 3.3333333333s;
+  -ms-animation-delay: 3.3333333333s;
+  -moz-animation-delay: 3.3333333333s;
+  -o-animation-delay: 3.3333333333s;
+  animation-delay: 3.3333333333s; }
 
 li:nth-child(21) {
   top: -92.7050617164px;
@@ -372,14 +371,14 @@ li:nth-child(21) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 14s;
-  -ms-animation-delay: 14s;
-  -moz-animation-delay: 14s;
-  -o-animation-delay: 14s;
-  animation-delay: 14s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 3.5s;
+  -ms-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  -o-animation-delay: 3.5s;
+  animation-delay: 3.5s; }
 
 li:nth-child(22) {
   top: -31.3584374813px;
@@ -389,14 +388,14 @@ li:nth-child(22) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 14.6666666667s;
-  -ms-animation-delay: 14.6666666667s;
-  -moz-animation-delay: 14.6666666667s;
-  -o-animation-delay: 14.6666666667s;
-  animation-delay: 14.6666666667s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 3.6666666667s;
+  -ms-animation-delay: 3.6666666667s;
+  -moz-animation-delay: 3.6666666667s;
+  -o-animation-delay: 3.6666666667s;
+  animation-delay: 3.6666666667s; }
 
 li:nth-child(23) {
   top: 31.3588079262px;
@@ -406,14 +405,14 @@ li:nth-child(23) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 15.3333333333s;
-  -ms-animation-delay: 15.3333333333s;
-  -moz-animation-delay: 15.3333333333s;
-  -o-animation-delay: 15.3333333333s;
-  animation-delay: 15.3333333333s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 3.8333333333s;
+  -ms-animation-delay: 3.8333333333s;
+  -moz-animation-delay: 3.8333333333s;
+  -o-animation-delay: 3.8333333333s;
+  animation-delay: 3.8333333333s; }
 
 li:nth-child(24) {
   top: 92.7057817934px;
@@ -423,14 +422,14 @@ li:nth-child(24) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 16s;
-  -ms-animation-delay: 16s;
-  -moz-animation-delay: 16s;
-  -o-animation-delay: 16s;
-  animation-delay: 16s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  animation-delay: 4s; }
 
 li:nth-child(25) {
   top: 150.0016715654px;
@@ -440,14 +439,14 @@ li:nth-child(25) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 16.6666666667s;
-  -ms-animation-delay: 16.6666666667s;
-  -moz-animation-delay: 16.6666666667s;
-  -o-animation-delay: 16.6666666667s;
-  animation-delay: 16.6666666667s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 4.1666666667s;
+  -ms-animation-delay: 4.1666666667s;
+  -moz-animation-delay: 4.1666666667s;
+  -o-animation-delay: 4.1666666667s;
+  animation-delay: 4.1666666667s; }
 
 li:nth-child(26) {
   top: 200.7431279235px;
@@ -457,14 +456,14 @@ li:nth-child(26) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 17.3333333333s;
-  -ms-animation-delay: 17.3333333333s;
-  -moz-animation-delay: 17.3333333333s;
-  -o-animation-delay: 17.3333333333s;
-  animation-delay: 17.3333333333s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 4.3333333333s;
+  -ms-animation-delay: 4.3333333333s;
+  -moz-animation-delay: 4.3333333333s;
+  -o-animation-delay: 4.3333333333s;
+  animation-delay: 4.3333333333s; }
 
 li:nth-child(27) {
   top: 242.7141137836px;
@@ -474,14 +473,14 @@ li:nth-child(27) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 18s;
-  -ms-animation-delay: 18s;
-  -moz-animation-delay: 18s;
-  -o-animation-delay: 18s;
-  animation-delay: 18s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 4.5s;
+  -ms-animation-delay: 4.5s;
+  -moz-animation-delay: 4.5s;
+  -o-animation-delay: 4.5s;
+  animation-delay: 4.5s; }
 
 li:nth-child(28) {
   top: 274.0836194215px;
@@ -491,14 +490,14 @@ li:nth-child(28) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 18.6666666667s;
-  -ms-animation-delay: 18.6666666667s;
-  -moz-animation-delay: 18.6666666667s;
-  -o-animation-delay: 18.6666666667s;
-  animation-delay: 18.6666666667s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 4.6666666667s;
+  -ms-animation-delay: 4.6666666667s;
+  -moz-animation-delay: 4.6666666667s;
+  -o-animation-delay: 4.6666666667s;
+  animation-delay: 4.6666666667s; }
 
 li:nth-child(29) {
   top: 293.4873368507px;
@@ -508,14 +507,14 @@ li:nth-child(29) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 19.3333333333s;
-  -ms-animation-delay: 19.3333333333s;
-  -moz-animation-delay: 19.3333333333s;
-  -o-animation-delay: 19.3333333333s;
-  animation-delay: 19.3333333333s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 4.8333333333s;
+  -ms-animation-delay: 4.8333333333s;
+  -moz-animation-delay: 4.8333333333s;
+  -o-animation-delay: 4.8333333333s;
+  animation-delay: 4.8333333333s; }
 
 li:nth-child(30) {
   top: 300.0903672125px;
@@ -525,14 +524,14 @@ li:nth-child(30) {
   height: 30px;
   border-radius: 50%;
   list-style: none;
-  background-color: blue;
+  background-color: transparent;
   opacity: 0.5;
-  animation: colorAnimation 8s linear infinite, rotateAnimation2 20s linear infinite;
-  -webkit-animation-delay: 20s;
-  -ms-animation-delay: 20s;
-  -moz-animation-delay: 20s;
-  -o-animation-delay: 20s;
-  animation-delay: 20s; }
+  animation: colorAnimation 8s linear infinite, rotateAnimation2 5s linear infinite;
+  -webkit-animation-delay: 5s;
+  -ms-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  -o-animation-delay: 5s;
+  animation-delay: 5s; }
 
 @keyframes colorAnimation {
   0% {

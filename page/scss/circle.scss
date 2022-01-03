@@ -3,9 +3,8 @@
 
 $r: 300; //円の半径
 $point: 30; //いくつ点を用意するか
-//$point2: 50; //いくつ点を用意するか
-//$singleAngle:  (360/$point)*(pi()/180) ;
-$singleAngle:  (12 * pi())/180 ;
+//$point: 50; //いくつ点を用意するか
+$singleAngle:  (360/$point)*(pi()/180) ;
 $keyFrameLength: 60;
 
 @mixin translate($x,$y) {
@@ -42,14 +41,14 @@ ul {
       height: 30px;
       border-radius: 50%;
       list-style: none;
-      background-color: blue;
+      background-color: transparent;
       opacity: 0.5;
       //border: solid 1px #cccccc;
       animation: 
         colorAnimation 8s linear infinite,
-        rotateAnimation2 20s linear infinite
+        rotateAnimation2 5s linear infinite
         ;
-      $durationDelay: ( 20 / $point ) * $t + s;
+      $durationDelay: ( 5 / $point ) * $t + s;
       @include animation-delay($durationDelay);
     }
   }
